@@ -59,7 +59,7 @@ function showLanguage(){
     }
     
     function activeLanguageType(n){
-        langType.innerHTML = localLangType[n].getAttribute('key');
+        langType.innerHTML = localLangType[n].innerHTML;
     }
 }
 
