@@ -1362,6 +1362,11 @@ header::after{
 }
 
 @media screen and (max-width: 565px){
+	.header{
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+		url(../img/header_left.jpg) left 0 top 30% / cover;
+	}
+	
 	.header_menu {
 		margin-bottom: 100px;
 	}
@@ -1375,6 +1380,7 @@ header::after{
 	}
 	
 	.header_title{
+		letter-spacing: 7px;
 		font-size: 60px;
 	}
 
@@ -1450,6 +1456,10 @@ header::after{
 	.header_word {
 		font-size: 250px;
 		left: 5%;
+	}
+
+	.video_container{
+		padding: 30px 5px;
 	}
 
 	.video_link {
