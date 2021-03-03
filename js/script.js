@@ -106,7 +106,6 @@ function moveFunc(){
     const supportMenu = document.querySelector('.header_menu');
 
     window.addEventListener('resize', moveBlocks);
-    window.addEventListener('load', moveBlocks);
 
     function moveBlocks(){
         if(window.innerWidth <= 835){
