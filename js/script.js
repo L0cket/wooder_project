@@ -123,6 +123,7 @@ function moveFunc(){
             supportMenu.append(support);
         }
     }
+    moveBlocks();
 }
 funcMenu();
 showLanguage();
