@@ -114,6 +114,7 @@ header::after{
 .hidden_menu{
 	background: rgba(34, 34, 34, 0.883);
 	backdrop-filter: blur(3px);
+	-ms-backdrop-filter: blur(3px);
 	z-index: 98;
 	position: absolute;
 	left: 0;
