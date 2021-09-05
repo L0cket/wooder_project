@@ -83,19 +83,11 @@ function funcSlider(){
         }
     }
 
-    function activeBg(n){
-        let bg = document.querySelector('.header');
-        let param = `linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),`;
-        let backgrounds = [`url('../img/header_left.jpg') left 0 top 30% / 55% 100%, url('../img/header_right.jpg') right 0 top 0 / auto 100%;`, `url('../img/bg-data-1.jpg');`, `url('../img/bg-data-2.jpg');`, `url('../img/bg-data-3.jpg');`,]
-        bg.style.background = backgrounds[n];
-    }
-
     dots.forEach(function(item, indexDot){
         item.addEventListener('click', function(){
             index = indexDot;
             activeSlider(index);
             activeDots(index);
-            activeBg(index);
         })
     });
 }
