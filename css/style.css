@@ -145,10 +145,16 @@ header::after{
 	margin-bottom: 0;
 }
 
-.hidden_img{
+.hidden_item:before{
+	content: '';
 	position: absolute;
 	left: 0;
-	top: 2px;
+	top: 0;
+	background: url('../img/axe.svg');
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	width: 24px;
+	height: 24px;
 }
 
 .hidden_link{
